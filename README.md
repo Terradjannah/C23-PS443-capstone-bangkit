@@ -25,8 +25,9 @@ In the helper folder there is an index.js file. On lines 10 and 11, fill in the 
 ```
 
 ## Pengaturan URL API ML
-```plaintext
+
 In the controller folder and userController.js file, change the url on line 278 to the url for the ML API. Here's an example of the setting:
+```plaintext
 const apiBResponse = await axios.post('http://127.0.0.1:8080/predict_image', { url: publicUrl}, { headers: { Authorization: `Bearer ${req.cookies['jwt_token']}` }} );
 'http://127.0.0.1:8080/predict_image' needs to match the url for the ML API used.
 ```
