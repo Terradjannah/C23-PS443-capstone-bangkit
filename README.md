@@ -5,7 +5,7 @@ This project aims to create a backend API using Node.js and a Machine Learning A
 
 Here are some instructions to note to setup this project:
 
-## Pengaturan Environment Variables
+## Environment Variable Settings
 
 Copy and fill the `.env` file with the appropriate data:
 
@@ -19,12 +19,12 @@ GCS_BUCKET_NAMEVP = [bucket name for user photo files in predict]
 GCS_BUCKET_NAMEPP = [bucket name for profile photo file]
 ```
 
-## Pengaturan Email Pengirim Reset Token
+## Sender Email Settings Reset Token
 ```plaintext
 In the helper folder there is an index.js file. On lines 10 and 11, fill in the user / email used to send the reset token. To pass, enter the APP Password in your Google account.
 ```
 
-## Pengaturan URL API ML
+## ML API URL Settings
 
 In the controller folder and userController.js file, change the url on line 278 to the url for the ML API. Here's an example of the setting:
 ```plaintext
