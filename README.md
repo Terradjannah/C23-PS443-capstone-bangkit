@@ -5,6 +5,9 @@ This project aims to create a backend API using Node.js and a Machine Learning A
 
 Here are some instructions to note to setup this project:
 
+## Key service account settings
+Copy the key service account Firestore and Google cloud storage to `Admin-Firestore.json` and `Admin-GCS.json` in the folder `Credentials`
+
 ## Environment Variable Settings
 
 Copy and fill the `.env` file with the appropriate data:
@@ -13,8 +16,8 @@ Copy and fill the `.env` file with the appropriate data:
 port = [port used]
 Jwt_Secret = [code for JWT]
 GCLOUD_PROJECT_ID = [Project ID in the cloud]
-GCLOUD_KEY_FILE_FIRESTORE = [key service acount firestore]
-GCLOUD_KEY_FILE_GCS = [key service account GCS]
+GCLOUD_KEY_FILE_FIRESTORE = [location key service acount firestore]
+GCLOUD_KEY_FILE_GCS = [location key service account GCS]
 GCS_BUCKET_NAMEVP = [bucket name for user photo files in predict]
 GCS_BUCKET_NAMEPP = [bucket name for profile photo file]
 ```
