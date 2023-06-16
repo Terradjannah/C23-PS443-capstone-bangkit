@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_profile"
+        android:icon="@drawable/ic_person"
+        android:title="Profil" />
+
+    <item
+        android:id="@+id/about_us"
+        android:icon="@drawable/ic_person"
+        android:title="About Us" />
+
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/ic_person"
+        android:title="Logout" />
+</menu>
